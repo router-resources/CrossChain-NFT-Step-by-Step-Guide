@@ -114,13 +114,15 @@ Click on the "Submit" button to receive free MATIC tokens to your wallet address
 
 
 
-Step 17) Come back to Remix and switch to Fuji/Binance Network
+Step 17) To switch to the Fuji/Binance Network from your Metamask extension, click on the Metamask icon in your browser toolbar, and select "Fuji/Binance" from the network dropdown menu.
 
-Step 18) Deploy the contract by passing Gateway address of Fuji/Binance and DestGasLimit as 500000
+Step 18) To deploy the contract, go back to Remix and click on the "Deploy & Run Transactions" button and select the correct contract from the dropdown menu.
 
-Step 19) Switch to Mumbai Network and deploy the contract by passing Gateway address of Mumbai and DestGasLimit as 500000
+Next, click on the "Environment" dropdown menu and select "Injected Web3" to ensure Remix can connect to your Metamask wallet enter the "Gateway address" for Fuji/Binance (which can be found at https://devnet.lcd.routerprotocol.com/router-protocol/router-chain/multichain/chain_config), and set the "DestGasLimit" to 500000.
 
-Gateway addresses for respective chains can be found here https://devnet.lcd.routerprotocol.com/router-protocol/router-chain/multichain/chain_config
+Step 19) To deploy the contract on the Mumbai Network, switch back to the Metamask extension and select "Mumbai" from the network dropdown menu. Then, return to Remix and repeat the previous steps, but this time, select enter the corresponding "Gateway address" for Mumbai from the same website (https://devnet.lcd.routerprotocol.com/router-protocol/router-chain/multichain/chain_config). Set the "DestGasLimit" to 500000.
+
+Note: A "faucet" is a tool that allows you to receive test tokens or cryptocurrency for free, which can be used to test out transactions and contracts on a blockchain network. By adding the faucet to your wallet address, you can receive these test tokens for free, which can be used to deploy and test your smart contract.
 
 Step 20) Switch to Fuji/Binance Network again and call setContractOnChain  
 Function of the Fuji contract passing in 0, 80001 and address of the Mumbai contract deployed respectively<br/>

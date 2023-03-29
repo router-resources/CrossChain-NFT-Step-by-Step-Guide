@@ -124,17 +124,23 @@ Step 19) To deploy the contract on the Mumbai Network, switch back to the Metama
 
 Note: A "faucet" is a tool that allows you to receive test tokens or cryptocurrency for free, which can be used to test out transactions and contracts on a blockchain network. By adding the faucet to your wallet address, you can receive these test tokens for free, which can be used to deploy and test your smart contract.
 
-Step 20) Switch to Fuji/Binance Network again and call setContractOnChain  
-Function of the Fuji contract passing in 0, 80001 and address of the Mumbai contract deployed respectively<br/>
+Step 20) Switch to the Fuji/Binance Network by clicking on the Metamask extension in your browser and selecting "Fuji/Binance" from the dropdown menu. Once you are on the correct network, select the contract you deployed on Fuji from the "Contract" section of Remix.
 
+Then, click on the "setContractOnChain" function in the "Contract" section and pass in the following parameters:
 
+_chainId: 0
+_destChainId: 80001
+_contract: The address of the Mumbai contract that you just deployed
+Click on the "transact" button to execute the function.
 
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/221346331-d08e77aa-2dad-421e-9297-6a6d19ceea52.png">
+Step 21) Switch to the Mumbai Network by clicking on the Metamask extension in your browser and selecting "Mumbai" from the dropdown menu. Once you are on the correct network, select the contract you deployed on Mumbai from the "Contract" section of Remix.
 
+Then, click on the "setContractOnChain" function in the "Contract" section and pass in the following parameters:
 
-
-Step 21) Switch to Mumbai Network and call setContractOnChain  
-Function of the Mumbai contract passing in 0, 43113 and address of the Fuji Contract Deployed 
+_chainId: 0
+_destChainId: 43113
+_contract: The address of the Fuji/Binance contract that you just deployed
+Click on the "transact" button to execute the function.
 
 Step 22) Switch to Fuji/Binance Network and mint some ERC20 Tokens through mint function of the Fuji/Binance contract deployed<br/>
 

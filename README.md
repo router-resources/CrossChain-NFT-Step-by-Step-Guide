@@ -50,7 +50,7 @@ Step 4) Click on the "Create Wallet" button to create a new wallet.
 
 Step 5) Set a password for your wallet in the provided field. Make sure to remember this password, as it will be needed to access your wallet in the future.
 
-Step 6) Step 6) Choose either the "Secure my wallet with a seed phrase" or "No thanks, maybe later" option. We recommend choosing the first option to secure your wallet with a backup seed phrase.
+Step 6) Choose either the "Secure my wallet with a seed phrase" or "No thanks, maybe later" option. We recommend choosing the first option to secure your wallet with a backup seed phrase.
 
 Step 7) Connect to the Mumbai network:
 
@@ -65,7 +65,17 @@ Scroll down to the bottom of the page and click on the "Add C-Chain ( Fuji ) Net
 
 
 
-Step 11) Come to Remix again and compile the code ( ctrl + s )
+Step 11) Go back to your Remix IDE.
+
+Step 12) In the left-hand sidebar, click on the "Solidity Compiler" option.
+
+Step 13) Click on the "Compile NFT.sol" button to compile the code for your contract.
+
+Step 14) If the compilation is successful, you should see a green checkmark next to the "NFT.sol" file in the left-hand sidebar.
+
+Step 15) If there are any errors in your code, you will see them listed in the right-hand panel under the "Errors" tab. Click on each error to see a more detailed description of the problem and how to fix it.
+
+Step 16) Alternatively, you can use the shortcut command, "Ctrl + S" on your keyboard to compile the code
 
 Step 12) Select Inject Provider from Environments in Deployments section<br/>
 
@@ -86,23 +96,17 @@ Step 13) Switch to Fuji Network and copy your wallet address
 <img width="600" alt="image" height="500" src="https://user-images.githubusercontent.com/124175970/222494290-26e66b6d-62e7-498b-ae3a-7b2f8395fc37.png">
 
 
-Step 14) Add faucet to your account by visiting https://testnet.bnbchain.org/faucet-smart  and pasting your wallet address and then click on REQUEST 2 AVAX <br/>
+Step 14) A faucet is a service that allows you to receive free cryptocurrency to use for testing purposes. 
 
-<img width="706" alt="image" src="https://user-images.githubusercontent.com/124175970/226447308-c4f07d40-3421-4638-bd77-19ffc70b62fc.png">
+To add faucet to your Fuji account, visit https://faucet.avax.network/ and follow these steps:
 
-Or
+Paste your wallet address in the provided field.
+Click on the "REQUEST 2 AVAX" button to receive free AVAX tokens to your wallet address.
 
-Step 14) Add faucet to your account by visiting https://faucet.avax.network/  and pasting your wallet address and then click on REQUEST 2 AVAX <br/>
+To add faucet to your account on the Mumbai network, visit https://faucet.polygon.technology/ and follow these steps:
 
-
-
-<img width="600" alt="image" height="500" src="https://user-images.githubusercontent.com/124175970/221346259-23639bf9-22dd-4b01-a3ed-10f738ae6873.png">
-
-
-
-Step 15) Switch to Mumbai Network https://mumbai.polygonscan.com/ and copy your wallet address  
-
-Step 16) Add faucet to your account by visiting https://faucet.polygon.technology/ and pasting your wallet address and then click on Submit<br/>
+Paste your wallet address in the provided field.
+Click on the "Submit" button to receive free MATIC tokens to your wallet address.
 
 
 

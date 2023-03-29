@@ -19,7 +19,7 @@ If you need help or have other some questions - don't hesitate to write in our d
 
 # ✌️`Let's Begin 🚀`
 
-Step 1) Log in to your preferred Solidity development platform, such as Remix or Truffle , etc
+Step 1) Log in to your preferred Solidity development platform, such as Remix or Truffle, etc. For this tutorial, we will be using Remix IDE.
 
 Step 2) Create a new workspace by selecting the "New Workspace" option. You may need to specify a name for the workspace and choose a template to use. For example, you could select the "Solidity" template.
 
@@ -29,16 +29,6 @@ Step 4) Open the "NFT.sol" file, which contains the code you want to use for you
 
 Step 5) Go back to the editing area for your new file in the workspace. Paste the code you copied from "NFT.sol" into this new file.
 
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222487874-7f661c6c-7ad1-4cd0-8364-216376b5eb8d.png">
-
-
-
-
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222489012-d0697c9a-c7db-41d8-9591-8b3455862d0a.png">
-
-
-
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222489772-ceecb651-0554-4c0a-8185-3684fae93b7a.png">
 
 Step 1) Open your preferred web browser.
 
@@ -80,22 +70,6 @@ Step 16) Alternatively, you can use the shortcut command, "Ctrl + S" on your key
 Step 12) Select Inject Provider from Environments in Deployments section<br/>
 
 
-
-<img width="600" alt="image" height="500"  src="https://user-images.githubusercontent.com/124175970/221346226-e0e851b9-8212-481f-9901-26793e19fa1a.png">
-
-Step 13) Switch to Binance Chain and copy your wallet address
-
-<img width="600" alt="image" height="500" src="https://user-images.githubusercontent.com/124175970/222494290-26e66b6d-62e7-498b-ae3a-7b2f8395fc37.png">
-
-Or 
-
-Step 13) Switch to Fuji Network and copy your wallet address  
-
-
-
-<img width="600" alt="image" height="500" src="https://user-images.githubusercontent.com/124175970/222494290-26e66b6d-62e7-498b-ae3a-7b2f8395fc37.png">
-
-
 Step 14) A faucet is a service that allows you to receive free cryptocurrency to use for testing purposes. 
 
 To add faucet to your Fuji account, visit https://faucet.avax.network/ and follow these steps:
@@ -107,11 +81,6 @@ To add faucet to your account on the Mumbai network, visit https://faucet.polygo
 
 Paste your wallet address in the provided field.
 Click on the "Submit" button to receive free MATIC tokens to your wallet address.
-
-
-
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/221346290-f0183c5a-217b-4ba3-8860-e866f6265372.png">
-
 
 
 Step 17) To switch to the Fuji/Binance Network from your Metamask extension, click on the Metamask icon in your browser toolbar, and select "Fuji/Binance" from the network dropdown menu.
@@ -145,26 +114,14 @@ Click on the "transact" button to execute the function.
 Step 22) Switch to Fuji/Binance Network and mint some ERC20 Tokens through mint function of the Fuji/Binance contract deployed<br/>
 
 
-
-<img width="600" alt="image" height="300"  src="https://user-images.githubusercontent.com/124175970/221346368-d761fb5c-4596-44c8-973d-0c97e800c267.png">
-
-
-
 Step 23) Copy the Fuji contract address that you just deployed in the previous steps, then visit https://devnet-faucet.routerprotocol.com/ in your web browser. Paste the Fuji contract address into the provided field and click on the "Get Route" button to receive some Route tokens in the Fuji contract.CrossTalk works on a prepaid fee model. Upon receiving the CrossTalk Request, the Router chain will calculate the estimated fee for executing the transaction on the destination chain in terms of ROUTE tokens and deduct the fee plus incentive from the feePayer address upfront.Fee and relayer incentive for any cross-chain request on Router have to be paid in ROUTE tokens only
 
 
 
 
 
-<img width="600" alt="image" height="500" src="https://user-images.githubusercontent.com/124175970/221346388-5dbdaa27-58aa-4633-b6cd-05eb9ebc39da.png">
-
-
-
 Step 24) Come back to Remix ,and Call TransferCrossChain function of the Fuji/Binance contract deployed , passing in 0, 80001 ,30000000000 ,recipient address and amount as parameters<br/>
 
-
-
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/221346412-bce85fb1-139f-42ed-ade6-e916b09b5fdd.png">
 
 
 

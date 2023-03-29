@@ -150,7 +150,9 @@ Step 22) Switch to Fuji/Binance Network and mint some ERC20 Tokens through mint 
 
 
 
-Step 23) Copy the Fuji contract address , visit https://devnet-faucet.routerprotocol.com/ , paste the address there and click on Get Route to get Route Tokens in the Fuji contract <br/>
+Step 23) Copy the Fuji contract address that you just deployed in the previous steps, then visit https://devnet-faucet.routerprotocol.com/ in your web browser. Paste the Fuji contract address into the provided field and click on the "Get Route" button to receive some Route tokens in the Fuji contract.CrossTalk works on a prepaid fee model. Upon receiving the CrossTalk Request, the Router chain will calculate the estimated fee for executing the transaction on the destination chain in terms of ROUTE tokens and deduct the fee plus incentive from the feePayer address upfront.Fee and relayer incentive for any cross-chain request on Router have to be paid in ROUTE tokens only
+
+
 
 
 

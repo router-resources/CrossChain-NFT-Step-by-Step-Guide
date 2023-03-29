@@ -1,6 +1,6 @@
-# `CrossChain ERC-20 Step by Step Guide`
+# `CrossChain ERC-721 Step by Step Guide`
 
-> Effortlessly transfer ERC-20 tokens from one chain to another. Made using Router Cross-Talk.
+> Effortlessly transfer ERC-721 tokens from one chain to another. Made using Router Cross-Talk.
 
 This project is built with [Router CrossTalk](https://dev.routerprotocol.com/crosstalk-library/overview/introduction)
 
@@ -19,81 +19,49 @@ If you need help or have other some questions - don't hesitate to write in our d
 
 # ✌️`Let's Begin 🚀`
 
-Step 1) Open Remix IDE https://remix.ethereum.org/ 
+Step 1) Log in to your preferred Solidity development platform, such as Remix or Truffle , etc
 
-Step 2) Create a new workspace 
+Step 2) Create a new workspace by selecting the "New Workspace" option. You may need to specify a name for the workspace and choose a template to use. For example, you could select the "Solidity" template.
 
+Step 3) Create a new file in the workspace by selecting the "New File" option. Give the file a name and save it with the ".sol" extension. For example, you could name the file "NFT" and save it as "NFT.sol".
+
+Step 4) Open the "NFT.sol" file, which contains the code you want to use for your new file. Copy the entire code from the "coin.sol" file.
+
+Step 5) Go back to the editing area for your new file in the workspace. Paste the code you copied from "NFT.sol" into this new file.
 
 <img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222487874-7f661c6c-7ad1-4cd0-8364-216376b5eb8d.png">
 
 
-Step 3) Create a new file, give a name and save it with ".sol" extension
 
 
 <img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222489012-d0697c9a-c7db-41d8-9591-8b3455862d0a.png">
 
 
-Step 4) Copy the code from coin.sol and paste it in the editing area
-
 
 <img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222489772-ceecb651-0554-4c0a-8185-3684fae93b7a.png">
 
+Step 1) Open your preferred web browser.
 
-Step 5) Install Metamask extension from https://metamask.io/download/ and to your browser
+Step 2) Go to https://metamask.io/download/ and install the Metamask extension for your browser.
 
+Step 3) Open the Metamask extension by clicking on its icon in your browser toolbar.
 
-<img width="600" alt="image" height="100" src="https://user-images.githubusercontent.com/124175970/222491847-f177213e-ae1b-4d17-979d-94754c3cd761.png">
+Step 4) Click on the "Create Wallet" button to create a new wallet.
 
+Step 5) Set a password for your wallet in the provided field. Make sure to remember this password, as it will be needed to access your wallet in the future.
 
-Step 6) Open the extension and click on Create Wallet
+Step 6) Step 6) Choose either the "Secure my wallet with a seed phrase" or "No thanks, maybe later" option. We recommend choosing the first option to secure your wallet with a backup seed phrase.
 
+Step 7) Connect to the Mumbai network:
 
+Go to https://mumbai.polygonscan.com/
+Scroll down to the bottom of the page and click on the "Add Mumbai Network" button to add Mumbai Network to Metamask Wallet
 
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222492848-56c8be45-df82-43a6-9ab1-721ed48d5757.png">
+Step 8) Connect to the Fuji network:
 
+Go to https://testnet.snowtrace.io/
+Scroll down to the bottom of the page and click on the "Add C-Chain ( Fuji ) Network" button to add Fuji Network to Metamask Wallet
 
-Step 7) Set a password for your wallet
-
-
-
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222493207-0b3f9cb0-e0dd-496e-b2f2-58a808afee77.png">
-
-
-Step 8) Select either of the 2 options. Securing your wallet is recommended.But for the time being, we can go with the 1st option.
-
-
-<img width="600" alt="image" height="300" height="300" height="300" height="300" height="300" src="https://user-images.githubusercontent.com/124175970/222493438-d097d115-72de-4f46-8c5e-690a442e94a7.png">
-
-
-
-Step 9) Connect to Mumbai Network :-
-1. Go to https://mumbai.polygonscan.com/
-2. Scroll down to the bottom end and click on Add Mumbai Network <br/>
-
-
-<img width="600" alt="image" height="100"  src="https://user-images.githubusercontent.com/124175970/221346184-158921ef-8a72-4197-9706-2e0fb052513b.png">
-
-
-Step 10) connect to Binance Network :-
-	1. Go to https://www.ankr.com/rpc/bsc/
-	2. Select Testnet 
-	3. Click on add to Network
-	</br>
-	<img width="718" alt="image" src="https://user-images.githubusercontent.com/124175970/226446271-9fe1a7cc-9166-46eb-a50a-39258ea3f222.png">
-
-	
-	
-
-<br/>
-Or
-</br>
-
-Step 10) Connect to Fuji Network :-
-	1. Go to https://testnet.snowtrace.io/ 
-2. Scroll down to the bottom end and click on Add C-Chain ( Fuji ) Network 
-<br/>
-
-<img width="600" alt="image" height="100" src="https://user-images.githubusercontent.com/124175970/221346200-dce7c091-069d-49b3-9dae-c77b69f5f23d.png">
 
 
 
